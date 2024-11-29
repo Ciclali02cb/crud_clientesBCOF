@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'clientes/style.css' %}">
+    <title>Inicio De Sesión</title>
+</head>
+<body>
+    <div class="container">
+        <h2> Iniciar Sesion </h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+        <div class="btn0">
+            <button type="submit">Iniciar Sesion</button>
+            <a class="btn" href="{% url 'register' %}">Registrarse</a> 
+        </div>
+        </form>
+    </div>
+</body>
+</html>
