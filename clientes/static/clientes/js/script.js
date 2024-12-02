@@ -44,10 +44,10 @@ document.querySelectorAll('.navar a[href^="#"]').forEach(function(enlace){
 
 //Cambiar la imagen de fondo cada cierto segundo
 const imagenes = [
-    '/static/clientes/img/fondo.png',
-    '/static/clientes/img/bienestar.jpg',
-    '/static/clientes/img/fondo3.jpg',
-    '/static/clientes/img/bien.jpg'
+    '/static/clientes/IMG/fondo.png',
+    '/static/clientes/IMG/bienestar.jpg',
+    '/static/clientes/IMG/fondo3.jpg',
+    '/static/clientes/IMG/bien.jpg'
 ];
 const homeSection = document.querySelector('.home');
 const intervalo = 5000; //5000 ms=5s
