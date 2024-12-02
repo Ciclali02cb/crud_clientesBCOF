@@ -427,7 +427,7 @@ section{
 }
 /*ESTO SERA EL FOOTER */
 .footer {
-    background-color: bisque; 
+    background: bisque; 
     padding: 40px;   /* Aumentado el padding */
     display: flex;
     flex-direction: column; 
@@ -442,6 +442,8 @@ section{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #d0b7ee9a; /* Color de fondo */
+    margin-bottom: 10px; /* Espacio debajo de la sección */
 }
 .footer-section {
     text-align: center; 
@@ -495,7 +497,6 @@ section{
 .social-links a i {
     font-size: 40px;
 }
-
 
 .Columnas4 {
     background-color: #83efc6cf; /* Color de fondo */
