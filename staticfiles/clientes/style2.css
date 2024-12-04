@@ -427,7 +427,7 @@ section{
 }
 /*ESTO SERA EL FOOTER */
 .footer {
-    background-color: bisque; 
+    background: bisque; 
     padding: 40px;   /* Aumentado el padding */
     display: flex;
     flex-direction: column; 
@@ -442,6 +442,8 @@ section{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #d0b7ee9a; /* Color de fondo */
+    margin-bottom: 10px; /* Espacio debajo de la sección */
 }
 .footer-section {
     text-align: center; 
@@ -495,3 +497,108 @@ section{
 .social-links a i {
     font-size: 40px;
 }
+
+.Columnas4 {
+    background-color: #83efc6cf; /* Color de fondo */
+    padding: 50px 20px; /* Espacio alrededor del contenido */
+    margin-bottom: 50px; /* Espacio debajo de la sección */
+}
+
+.Columnas4 h1{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Gowun2';
+    font-weight: 1000;
+    line-height: 30px;
+    margin-bottom: 50px;
+    font-size: var(--h1-font);
+    color: #050101;
+    text-align: center; 
+}
+.col4-content {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2rem;
+    align-items: center; /*Alinea la imagen al centro */
+    text-align: center; 
+}
+
+.row4-img {
+    overflow: hidden;
+    width: 200px; /*Ancho  de la caja */ 
+    height: 200px;  /*dimensiones  de la caja lo cual solo se vere la esquina de nuestra imagen*/ 
+    margin: 0 auto; 
+    border-radius: 100px; /*Se empezara hacer el radio de bordes el cual se hara  en las 4 esquinas el % hace circulo completo, el px solo lo hace en las esquinas */
+    cursor: pointer;
+}
+
+.row4-img img {
+    filter: invert(250%);
+    width: 100%; /*Hara que la imagen se adapte al cuadro de dimensiones que le proporcionamos  */
+    transition: 0.70s ease transform;
+}
+
+.row4-img img:hover {
+    transform: scale(1.2);
+
+}
+
+.col4-content h4{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Narrow';
+    font-weight: 1000;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: var(--h21-font);
+    color: #ffffff;
+}
+
+.col4-content h4:hover {
+    color: var(--main-color)
+}
+
+/* Estilos para la sección "Acerca de" */
+.Columna3 {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 50px 20px; /* Espacio alrededor del contenido */
+    margin-bottom: 50px; /* Espacio debajo de la sección */
+  }
+  
+  .col3-content {
+    width: 80%; /* Ancho del contenido */
+    margin: 0 auto; /* Centra el contenido */
+  }
+  
+  .row3 {
+    text-align: center;
+  }
+  
+  .row3 h2 {
+    font-family: 'Gowun';
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333; /* Color del título */
+  }
+  
+  .row3 h3 {
+    font-family: 'Narrow';
+    font-size: 1.5rem;
+    color: #555; /* Color del texto */
+    line-height: 1.6; /* Espacio entre líneas */
+  }
+  
+  /* Estilos adicionales para la sección "Acerca de" */
+  .Columna3 h2 {
+    font-size: 3rem; /* Tamaño de fuente del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #333; /* Color del título */
+  }
+  
+  .Columna3 h3 {
+    font-size: 1.5rem; /* Tamaño de fuente del texto */
+    color: #555; /* Color del texto */
+    line-height: 1.6; /* Espacio entre líneas */
+  }
