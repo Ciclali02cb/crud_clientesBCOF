@@ -78,13 +78,12 @@ h2 {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .clientes-table {
     width: 100%;
@@ -193,18 +192,23 @@ button:active {
         display: block; /* Mostrar el icono del menú */
     }
 
-    /* Ajustes adicionales para pantallas pequeñas */
     .container {
-        width: 95%; /* Ancho del contenedor más amplio para mejor visualización */
+        /* Eliminar ancho fijo */
+        width: 100%;
+        padding: 10px; /* Ajustar el relleno según sea necesario */
+    }
+
+    .clientes-table {
+        /* Eliminar ancho fijo */
+        width: 100%;
+        margin: 0; /* Ajustar el margen según sea necesario */
+        padding: 10px; /* Ajustar el relleno según sea necesario */
     }
 
     .clientes-table th, .clientes-table td {
-        font-size: 12px; /* Reducir el tamaño de la fuente de las celdas de la tabla */
+        padding: 5px 8px; /* Ajustar el relleno según sea necesario */
     }
 
-    .clientes-table td {
-        padding: 5px 8px; /* Reducir el relleno de las celdas de la tabla */
-    }
 
     label {
         font-size: 14px; /* Reducir el tamaño de la fuente de las etiquetas */
