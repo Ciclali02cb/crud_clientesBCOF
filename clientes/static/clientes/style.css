@@ -202,6 +202,8 @@ button:active {
         font-size: 12px; /* Reducir el tamaño de la fuente de las celdas de la tabla */
     }
 
+    
+
     .clientes-table td {
         padding: 5px 8px; /* Reducir el relleno de las celdas de la tabla */
     }
