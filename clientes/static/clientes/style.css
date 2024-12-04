@@ -219,4 +219,26 @@ button:active {
     button {
         font-size: 12px; /* Reducir el tamaño de la fuente de los botones */
     }
+
+    /* Estilos para la tabla de contenido */
+    .table-of-contents {
+        table-layout: fixed;
+        width: 100%;
+      }
+  
+    .table-of-contents th, 
+    .table-of-contents td {
+        width: 25%; /* Ancho de cada columna (25% del ancho total) */
+        max-width: 25%; /* Ancho máximo del contenido de la celda */
+        padding: 8px; /* Espacio interno */
+        text-align: left; /* Alineación del texto */
+        font-size: 14px; /* Tamaño de fuente */
+      }
+  
+      /* Estilos para las filas de la tabla */
+    .table-of-contents tr {
+        display: block; /* Las filas se muestran como bloques */
+        width: 100%; /* Ancho de las filas al 100% */
+        margin-bottom: 10px; /* Espacio entre filas */
+      }
 }
