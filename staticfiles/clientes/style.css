@@ -217,4 +217,52 @@ button:active {
     button {
         font-size: 12px; /* Reducir el tamaño de la fuente de los botones */
     }
+
+    /* Estilos para la tabla de contenido */
+    .table-of-contents {
+        table-layout: fixed;
+        width: 100%;
+        /* Ajusta el ancho de la tabla al área blanca */
+        max-width: 95%; /* Ajusta el ancho máximo */
+        margin: 0 auto; /* Centra la tabla */
+      }
+  
+    .table-of-contents th, 
+    .table-of-contents td {
+        width: 25%; /* Ancho de cada columna (25% del ancho total) */
+        max-width: 25%; /* Ancho máximo del contenido de la celda */
+        padding: 8px; /* Espacio interno */
+        text-align: left; /* Alineación del texto */
+        font-size: 14px; /* Tamaño de fuente */
+      }
+  
+      /* Estilos para las filas de la tabla */
+    .table-of-contents tr {
+        display: block; /* Las filas se muestran como bloques */
+        width: 100%; /* Ancho de las filas al 100% */
+        margin-bottom: 10px; /* Espacio entre filas */
+      }
+
+    /* Estilos para la tabla de clientes */
+    .clientes-table {
+        table-layout: fixed; /* Distribuye el ancho de forma uniforme */
+        width: 100%; /* Ancho de la tabla */
+        max-width: 95%; /* Ancho máximo para que se ajuste al área blanca */
+        margin: 0 auto; /* Centra la tabla */
+    }
+
+    .clientes-table th, .clientes-table td {
+        width: 14.28%; /* Ancho de cada columna (100% / 7 columnas) */
+        max-width: 14.28%; /* Ancho máximo del contenido de la celda */
+        padding: 5px 8px; /* Espacio interno */
+        text-align: left; /* Alineación del texto */
+        font-size: 12px; /* Tamaño de fuente */
+    }
+
+    /* Estilos para las filas de la tabla de clientes */
+    .clientes-table tr {
+        display: block; /* Las filas se muestran como bloques */
+        width: 100%; /* Ancho de las filas al 100% */
+        margin-bottom: 10px; /* Espacio entre filas */
+    }
 }
