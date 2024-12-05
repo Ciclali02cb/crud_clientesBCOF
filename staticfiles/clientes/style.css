@@ -186,7 +186,6 @@ button:active {
     background-color: #004494;
 }
 
-/* Estilos para pantallas con ancho máximo de 960px */
 @media (max-width: 750px) {
     #menu-icon {
         display: block; /* Mostrar el icono del menú */
@@ -251,6 +250,7 @@ button:active {
     .clientes-table {
         table-layout: fixed; /* Distribuye el ancho de forma uniforme */
         width: 100%; /* Ancho de la tabla */
+        border-collapse: collapse;
         max-width: 95%; /* Ancho máximo para que se ajuste al área blanca */
         margin: 0 auto; /* Centra la tabla */
     }
