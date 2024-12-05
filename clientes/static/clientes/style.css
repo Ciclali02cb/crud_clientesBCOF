@@ -89,6 +89,7 @@ h2 {
 .clientes-table {
     width: 100%;
     border-collapse: collapse;
+    overflow-x: auto;
     margin-bottom: 20px;
     font-size: var(--p-font);
 }
@@ -249,6 +250,7 @@ button:active {
         table-layout: fixed; /* Distribuye el ancho de forma uniforme */
         width: 100%; /* Ancho de la tabla */
         border-collapse: collapse;
+        overflow-x: auto;
         max-width: 95%; /* Ancho máximo para que se ajuste al área blanca */
         margin: 0 auto; /* Centra la tabla */
     }
