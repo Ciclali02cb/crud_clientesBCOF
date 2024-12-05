@@ -270,5 +270,6 @@ button:active {
         display: block; /* Las filas se muestran como bloques */
         width: 100%; /* Ancho de las filas al 100% */
         margin-bottom: 10px; /* Espacio entre filas */
+        overflow-x: auto;
     }
 }

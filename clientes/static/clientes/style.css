@@ -89,7 +89,7 @@ h2 {
 .clientes-table {
     width: 100%;
     border-collapse: collapse;
-    overflow-x: auto;
+    overflow-x:auto;
     margin-bottom: 20px;
     font-size: var(--p-font);
 }
@@ -268,5 +268,6 @@ button:active {
         display: block; /* Las filas se muestran como bloques */
         width: 100%; /* Ancho de las filas al 100% */
         margin-bottom: 10px; /* Espacio entre filas */
+        overflow-x: auto;
     }
 }
