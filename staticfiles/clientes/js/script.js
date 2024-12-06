@@ -41,7 +41,7 @@ document.querySelectorAll('.navar a[href^="#"]').forEach(function(enlace){
         })
     })
 })
-
+/*
 //Cambiar la imagen de fondo cada cierto segundo
 const imagenes = [
     '../clientes/IMG/fondo.png',
@@ -60,7 +60,7 @@ function cambiarFondo(){
 indiceImagen =(indiceImagen + 1) % imagenes.length;
 }
 setInterval(cambiarFondo, intervalo);
-
+*/
 
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
