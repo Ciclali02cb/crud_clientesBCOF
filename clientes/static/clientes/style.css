@@ -190,7 +190,7 @@ button:active {
 
 /* Estilos para pantallas con ancho máximo de 960px */
 /* Estilos para pantallas con ancho máximo de 960px */
-@media (max-width: 750px) {
+@media (max-width: 950px) {
     #menu-icon {
         display: block; /* Mostrar el icono del menú */
     }
