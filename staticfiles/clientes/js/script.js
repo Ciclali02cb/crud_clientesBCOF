@@ -41,13 +41,13 @@ document.querySelectorAll('.navar a[href^="#"]').forEach(function(enlace){
         })
     })
 })
-/*
+
 //Cambiar la imagen de fondo cada cierto segundo
 const imagenes = [
-    '../clientes/IMG/fondo.png',
-    '../clientes/IMG/bienestar.jpg',
-    '../clientes/IMG/fondo3.jpg',
-    '../clientes/IMG/bien.jpg'
+    '../staticfiles/clientes/IMG/fondo.png',
+    '../staticfiles/clientes/IMG/bienestar.jpg',
+    '../staticfiles/clientes/IMG/fondo3.jpg',
+    '../staticfiles/clientes/IMG/bien.jpg'
 ];
 const homeSection = document.querySelector('.home');
 const intervalo = 5000; //5000 ms=5s
@@ -60,7 +60,7 @@ function cambiarFondo(){
 indiceImagen =(indiceImagen + 1) % imagenes.length;
 }
 setInterval(cambiarFondo, intervalo);
-*/
+
 
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
