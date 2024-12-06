@@ -184,9 +184,9 @@ section{
     height: 100vh;
     width: 100%;
     background: linear-gradient(to left,
-                                rgba(31, 233, 88, 0.2),
-                                rgba(234, 82, 133, 0.3),
-                                rgba(94, 190, 234, 0.4)
+                                rgba(222, 70, 206, 0.4),
+                                rgba(70, 239, 208, 0.3),
+                                rgba(94, 190, 234, 0.852)
     );
    background: url(../clientes/IMG/fondo4.jpg);
     background: linear-gradient(to right,
