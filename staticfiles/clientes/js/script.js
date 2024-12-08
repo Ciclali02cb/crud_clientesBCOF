@@ -80,7 +80,7 @@ enlaces.forEach(link => {
 })
 
 var typed = new Typed('#typed', {
-    strings: ['Tu salud', 'Es nuestra', 'Fortaleza'],
+    strings: ['Tus emociones son valida', '¡No te rindas!', 'Nosotros te ayudamos'],
     typeSpeed:50,
     loop: "true",
     showCursor: "true",
